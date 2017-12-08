@@ -1,35 +1,156 @@
-header {
+.palette {
   background-color: #06D6A0;
-  padding: 5px;
-  text-align: left;
+  background-color: #26547C;
+  background-color: #EF476F;
+  background-color: #FFD166;
+  background-color: #FFFCF9;
 }
 
-ul {
-  list-style: none;
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-li  {
-  display: list-item;
+body {
   margin: 0;
 }
 
+header {
+  background-color: #06D6A0;
+  padding: 20px;
+  text-align: center;
+}
+
 .shop-name {
-color: white;
-margin: 10px;
-width: 50%;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .nav-item {
-margin-right: 10px;
-display: inline-block;
+  margin-bottom: 5px;
 }
 
-.navbar {
+img {
+  max-width: 80%;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content > h2 {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #EF476F;
+}
+
+.call-to-action,
+.products,
+.about {
+  padding: 30px 20px;
+}
+
+.call-to-action {
+  background-color: #FFD166;
+}
+
+.products {
+  background-color: #F2F2F2;
+}
+
+.about {
+  background-color: #26547C;
+  color: white;
+}
+
+footer {
+  background-color: #06D6A0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team {
+  overflow: hidden;
+}
+
+.team-fun,
+.team-values,
+.team-meow {
+  float: left;
+  width: 33.33333%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
+}
+
+  .product-wrapper {
+    overflow: hidden;
+  }
+
+  .product-item {
+    float: left;
+    width: 310px;
+    padding: 5px;
+  }
+
+  .product-item > img {
+    border: 3px solid black;
+  }
+
+  .hero {
+    overflow: hidden;
+    background-color: #26547C;
+    color: white;
+  }
+
+  .hero-image {
+    float: left;
+    width: 60%;
+  }
+
+  .hero-content {
+    float: left;
     width: 40%;
-    display: inline-block;
-    text-align: right;
-}
+    font-size: 25px;
+  }
 
-h1 {
-display: inline-block;
+  .hero-content > h2 {
+    border: 0;
+  }
+
+  header {
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .shop.name {
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+  }
+
+  .navbar {
+    float: right;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 60px;
+  }
 }
